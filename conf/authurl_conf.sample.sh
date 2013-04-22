@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # uncomment to add Host header
 HEADER_HOST=""
 # HEADER_HOST="-H "Host: example.com"
