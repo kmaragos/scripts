@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # import configuration script
-source conf/conf_general.sh
+source conf/foursquare_conf.sh
 
 # download foursquare user feeds (KML, RSS & ICS)
 wget https://feeds.foursquare.com/history/$FOURSQUARE_TOKEN.kml?count=$FOURSQUARE_COUNT -q -O $FOURSQUARE_BAK_DIR/$FOURSQUARE_USER.kml
